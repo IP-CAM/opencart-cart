@@ -1,1 +1,16 @@
+Pilot project. For testing only!
+
+Fast & simpled cart interface for OpenCart
+
+Installation:
+
+1) Copy files into the root category of your store;
+2) Replace default javascript methods in the file catalog/view/javascript/common.js (see catalog/view/javascript/common_patch.js)
+3) Modify the template files to remove unnecessary items
+4) Install and activate OCU Cart module in administrative panel
+5) Enjoy and report to thees page: https://github.com/shaman/opencart-cart/issues
+
+Ukrainian support:
+Coming soon...
+
 This file was created by JetBrains PhpStorm 4.0.1 for binding GitHub repository
