@@ -32,10 +32,15 @@ function ocuCart() {
 }
 
 function addToCart(product_id) {
+    if (product_id) {
+        var product_data = 'product_id=' + product_id;
+    } else {
+        var product_data = $('.product-info input[type=\'text\'], .product-info input[type=\'hidden\'], .product-info input[type=\'radio\']:checked, .product-info input[type=\'checkbox\']:checked, .product-info select, .product-info textarea');
+    }
     $.ajax({
         url: 'index.php?route=checkout/ocu_cart/update',
         type: 'post',
-        data: 'product_id=' + product_id,
+        data: product_data,
         dataType: 'json',
         success: function(json) {
             $('.success, .warning, .attention, .information, .error').remove();
