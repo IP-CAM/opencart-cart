@@ -132,6 +132,7 @@
     top: 17px;
     right: 18px;
     position: absolute;
+    cursor: pointer;
 }
 
 .ocu-cart .popup-background {
