@@ -20,10 +20,10 @@
 .ocu-cart .popup-content {
     clear: both;
     display: none;
-    position: fixed;
+    position: absolute;
     top: 150px;
-    left:50%;
-    margin-left:-290px;
+    left:0;
+    margin-left: -650px;
     padding: 8px;
     min-height: 150px;
     width: 600px;
@@ -38,6 +38,7 @@
     background: #FFF;
     z-index:999999;
 }
+
 
 .ocu-cart .popup-content .header {
     background: #585858;
