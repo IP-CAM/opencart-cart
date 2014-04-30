@@ -10,11 +10,11 @@
  * http://www.gnu.org/copyleft/gpl.html
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
- * to license@opencart.ua so we can send you a copy immediately.
+
  *
  * @category   OpenCart
  * @package    OCU Smarty Cart
- * @copyright  Copyright (c) 2011 Eugene Kuligin by OpenCart Ukrainian Community (http://www.opencart.ua)
+ * @copyright  Copyright (c) 2011 Eugene Lifescale by OpenCart Ukrainian Community (http://opencart-ukraine.tumblr.com)
  * @license    http://www.gnu.org/copyleft/gpl.html     GNU General Public License, Version 3
  */
 
@@ -25,7 +25,7 @@
     <id>OpenCart Smarty Cart</id>
     <version>1.5.1</version>
     <vqmver>1.2/10.08.2011</vqmver>
-    <author>Eugene Kuligin (a.k.a. Shaman)</author>
+    <author>Eugene Lifescale (a.k.a. Shaman)</author>
     <file name="system/engine/controller.php">
         <operation>
             <search position="before">
